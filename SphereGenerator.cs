@@ -253,7 +253,7 @@ public class SphereGenerator : MonoBehaviour
 
         }
 
-        StaticBatchingUtility.Combine(sphereTriangleObjects, this.gameObject); // not working... does the parent object need a mesh/mf/mr?
+        StaticBatchingUtility.Combine(sphereTriangleObjects, this.gameObject);
 
     }
 
